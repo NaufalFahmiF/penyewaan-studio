@@ -37,7 +37,7 @@
     </div>
     <div style="margin-top:-2pc"></div>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #333;">
-        <a class="navbar-brand" href="<?php echo $url;?>admin/"><b>Admin Panel</b></a>
+        <a class="navbar-brand" href="/admin/"><b>Admin Panel</b></a>
         <button class="navbar-toggler text-white d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation" style="color:#fff;">
             <i class="fa fa-bars"></i>
