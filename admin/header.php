@@ -45,22 +45,22 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item <?php if($title_web == 'Dashboard'){ echo 'active';}?>">
-                    <a class="nav-link" href="admin/">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/admin/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item <?php if($title_web == 'User'){ echo 'active';}?>">
-                    <a class="nav-link" href="/user.php">User / Pelanggan</a>
+                    <a class="nav-link" href="/admin/user.php">User / Pelanggan</a>
                 </li>
                 <li class="nav-item <?php if($title_web == 'Daftar studio'){ echo 'active';}?>
                 <?php if($title_web == 'Tambah studio'){ echo 'active';}?>
                 <?php if($title_web == 'Edit studio'){ echo 'active';}?>">
-                    <a class="nav-link" href="/studio/studio.php">Daftar Studio</a>
+                    <a class="nav-link" href="/admin/studio/studio.php">Daftar Studio</a>
                 </li>
                 <li class="nav-item <?php if($title_web == 'Daftar Booking'){ echo 'active';}?>
                 <?php if($title_web == 'Konfirmasi'){ echo 'active';}?>">
-                    <a class="nav-link" href="/booking/booking.php">Daftar Booking</a>
+                    <a class="nav-link" href="/admin/booking/booking.php">Daftar Booking</a>
                 </li>
                 <li class="nav-item <?php if($title_web == 'Peminjaman'){ echo 'active';}?>">
-                    <a class="nav-link" href="admin/peminjaman.php">Peminjaman / Pengembalian</a>
+                    <a class="nav-link" href="z/peminjaman.php">Peminjaman / Pengembalian</a>
                 </li>
             </ul>
             <ul class="navbar-nav my-2 my-lg-0">
