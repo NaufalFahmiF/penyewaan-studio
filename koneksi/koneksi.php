@@ -1,9 +1,15 @@
 <?php
     $user = 'rds_admin';
     $pass = '48F8B31Fe576';
-
-    $koneksi = new PDO("mysql:rm-d9jetkk94383ff035.mysql.ap-southeast-5.rds.aliyuncs.com:3306;dbname=penyewaan_studio", $user, $pass);
-
+    
+    try {
+        $koneksi = new PDO("mysql:host=rm-d9jetkk94383ff035.mysql.ap-southeast-5.rds.aliyuncs.com;port=3306;dbname=penyewaan_studio", $user, $pass);
+        $koneksi->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        echo "Connected successfully";
+    } catch (PDOException $e) {
+        echo "Connection failed: " . $e->getMessage();
+    }
+    
     global $url;
     $url = "8.215.4.20";
 
