@@ -60,7 +60,7 @@
                     <a class="nav-link" href="/admin/booking/booking.php">Daftar Booking</a>
                 </li>
                 <li class="nav-item <?php if($title_web == 'Peminjaman'){ echo 'active';}?>">
-                    <a class="nav-link" href="z/peminjaman.php">Peminjaman / Pengembalian</a>
+                    <a class="nav-link" href="/admin/peminjaman.php">Peminjaman / Pengembalian</a>
                 </li>
             </ul>
             <ul class="navbar-nav my-2 my-lg-0">
