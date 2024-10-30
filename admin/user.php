@@ -42,7 +42,7 @@ include 'header.php';
                             <td><?=$r->nama_pengguna;?></td>      
                             <td><?=$r->username;?></td>      
                             <td>
-                                <a href="<?php echo $url;?>admin/booking/booking.php?id=<?= $r->id_login;?>" 
+                                <a href="admin/booking/booking.php?id=<?= $r->id_login;?>" 
                                     class="btn btn-primary btn-sm">Detail Transaksi</a>    
                             </td>   
                         </tr>
